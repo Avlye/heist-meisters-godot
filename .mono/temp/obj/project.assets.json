@@ -8,19 +8,19 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\Avlye\\.nuget\\packages\\": {}
+    "C:\\Users\\avlye\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\Godot\\Heist Meisters\\Heist Meisters.csproj",
+      "projectUniqueName": "C:\\projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj",
       "projectName": "Heist Meisters",
-      "projectPath": "C:\\projects\\Godot\\Heist Meisters\\Heist Meisters.csproj",
-      "packagesPath": "C:\\Users\\Avlye\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\Godot\\Heist Meisters\\.mono\\temp\\obj\\",
+      "projectPath": "C:\\projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj",
+      "packagesPath": "C:\\Users\\avlye\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\Godot\\heist-meisters-godot\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Avlye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\avlye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,7 +45,7 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

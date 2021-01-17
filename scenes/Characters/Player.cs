@@ -14,18 +14,20 @@ public class Player : TemplateCharacter
     {
         base._PhysicsProcess(delta);
 
-        UpdateMovement();
-
-        motion.x = Mathf.Lerp(motion.x, 0, FRICTION);
-        motion.y = Mathf.Lerp(motion.y, 0, FRICTION);
-
-        MoveAndCollide(motion.Normalized() * SPEED * delta);
+        UpdateMovement(delta);
     }
 
-    void UpdateMovement()
+    void UpdateMovement(float delta)
     {
         LookAt(GetGlobalMousePosition());
-        motion.x = Input.GetActionStrength("move_right") - Input.GetActionStrength("move_left");
-        motion.y = Input.GetActionStrength("move_down") - Input.GetActionStrength("move_up");
+
+        motion = new Vector2(
+            Input.GetActionStrength("move_right") - Input.GetActionStrength("move_left"),
+            Input.GetActionStrength("move_down") - Input.GetActionStrength("move_up")
+        )
+        .LinearInterpolate(Vector2.Zero, FRICTION)
+        .Normalized();
+
+        MoveAndCollide(motion * SPEED * delta);
     }
 }

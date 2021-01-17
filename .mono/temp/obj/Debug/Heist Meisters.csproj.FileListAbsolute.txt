@@ -6,3 +6,11 @@ C:\projects\Godot\Heist Meisters\.mono\temp\obj\Debug\Heist Meisters.AssemblyInf
 C:\projects\Godot\Heist Meisters\.mono\temp\obj\Debug\Heist Meisters.csproj.CoreCompileInputs.cache
 C:\projects\Godot\Heist Meisters\.mono\temp\obj\Debug\Heist Meisters.dll
 C:\projects\Godot\Heist Meisters\.mono\temp\obj\Debug\Heist Meisters.pdb
+C:\projects\Godot\heist-meisters-godot\.mono\temp\bin\Debug\Heist Meisters.dll
+C:\projects\Godot\heist-meisters-godot\.mono\temp\bin\Debug\Heist Meisters.pdb
+C:\projects\Godot\heist-meisters-godot\.mono\temp\obj\Debug\Heist Meisters.csprojAssemblyReference.cache
+C:\projects\Godot\heist-meisters-godot\.mono\temp\obj\Debug\Heist Meisters.AssemblyInfoInputs.cache
+C:\projects\Godot\heist-meisters-godot\.mono\temp\obj\Debug\Heist Meisters.AssemblyInfo.cs
+C:\projects\Godot\heist-meisters-godot\.mono\temp\obj\Debug\Heist Meisters.csproj.CoreCompileInputs.cache
+C:\projects\Godot\heist-meisters-godot\.mono\temp\obj\Debug\Heist Meisters.dll
+C:\projects\Godot\heist-meisters-godot\.mono\temp\obj\Debug\Heist Meisters.pdb

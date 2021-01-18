@@ -4,10 +4,12 @@ using System;
 public class Player : TemplateCharacter
 {
     Vector2 motion = new Vector2();
+    Light2D Torch;
 
     public override void _Ready()
     {
         base._Ready();
+        Torch = GetNode<Light2D>("Torch");
     }
 
     public override void _PhysicsProcess(float delta)
@@ -15,6 +17,13 @@ public class Player : TemplateCharacter
         base._PhysicsProcess(delta);
 
         UpdateMovement(delta);
+    }
+
+    public override void _Input(InputEvent @event)
+    {
+        base._Input(@event);
+
+        ToggleTorch();
     }
 
     void UpdateMovement(float delta)
@@ -29,5 +38,13 @@ public class Player : TemplateCharacter
         .Normalized();
 
         MoveAndCollide(motion * SPEED * delta);
+    }
+
+    void ToggleTorch()
+    {
+        if (Input.IsActionJustReleased("torch"))
+        {
+            Torch.Enabled = !Torch.Enabled;
+        }
     }
 }

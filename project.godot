@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Heist Meisters"
-run/main_scene="res://scenes/Characters/Player.tscn"
+run/main_scene="res://scenes/Levels/TemplateLevel.tscn"
 config/icon="res://icon.png"
 
 [gdnative]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avlye\\Projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj": {}
+    "C:\\Users\\avlye\\projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avlye\\Projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj": {
+    "C:\\Users\\avlye\\projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avlye\\Projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj",
+        "projectUniqueName": "C:\\Users\\avlye\\projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj",
         "projectName": "Heist Meisters",
-        "projectPath": "C:\\Users\\avlye\\Projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj",
+        "projectPath": "C:\\Users\\avlye\\projects\\Godot\\heist-meisters-godot\\Heist Meisters.csproj",
         "packagesPath": "C:\\Users\\avlye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avlye\\Projects\\Godot\\heist-meisters-godot\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\avlye\\projects\\Godot\\heist-meisters-godot\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\avlye\\AppData\\Roaming\\NuGet\\NuGet.Config"
